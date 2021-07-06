@@ -44,7 +44,7 @@ public class SocketLabsClient implements SocketLabsClientAPI {
     public void  setNumberOfRetries(int value) { this.numberOfRetries = value; }
 
     private final String VERSION = "1.0.0";
-    private final String userAgent  = String.format("SocketLabs-java/%s(%s)", VERSION, Package.getPackage("java.util").getImplementationVersion());
+    private final String userAgent  = "container";//String.format("SocketLabs-java/%s(%s)", VERSION, Package.getPackage("java.util").getImplementationVersion());
 
     /**
      * Creates a new instance of the SocketLabsClient.
